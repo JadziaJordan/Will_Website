@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LMYZfhBun2Hoqbo9CSAChJcgnwIimJunDLYrzJvVZS5D0nNh4fgv167o0EBxQWlSXXfiHCp8WHWyHrE5Xg1c2Q==",
+  "dgSpecHash": "DG4dilOFjQ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jadzia Jordan\\OneDrive\\Desktop\\Will\\Will_Practice\\Will_Practice.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Desktop\\D49_Website_Jadzia\\Will_Website\\Will_Practice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,14 @@
+@model (string processUrl, System.Collections.Generic.Dictionary<string, string?> fields)
+<!DOCTYPE html>
+<html>
+<body onload="document.forms[0].submit()">
+    <p>Redirecting to PayFast...</p>
+    <form action="@Model.processUrl" method="post">
+        @foreach (var kv in Model.fields)
+        {
+            <input type="hidden" name="@kv.Key" value="@kv.Value" />
+        }
+        <noscript><button type="submit">Continue</button></noscript>
+    </form>
+</body>
+</html>
